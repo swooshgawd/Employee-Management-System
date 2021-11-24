@@ -12,13 +12,13 @@ VALUES
 ("Sales Lead", 100000, 1),
 ("Lead Engineer", 150000, 2),
 ("Software Engineer", 120000, 2),
-("Lawyer", 200000, 4,
-("Account Manager", 120000, 3),
+("Lawyer", 200000, 4),
+("Account Manager", 120000, 3);
  INSERT INTO employee
  (first_name, last_name, role_id, manager_id)
  VALUES
- ("Ernesto", "Garcia", 1, NUll),
- ("Parth", "Bhatt", 2, NUll),
+ ("Ernesto", "Garcia", 1, Null),
+ ("Parth", "Bhatt", 2, Null),
  ("Maxwell", "Walin", 3, 2),
- ("Daniel", "Stark", 5, NUll),
+ ("Daniel", "Stark", 5, Null),
  ("Jesus", "Perea", 3, 2);
